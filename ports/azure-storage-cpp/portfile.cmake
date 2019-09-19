@@ -6,10 +6,10 @@ include(vcpkg_common_functions)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO Azure/azure-storage-cpp
-    REF v6.1.0
-    SHA512 bc6a1da6287301b5bb5c31694d508c46447b71043d5b94a90ffe79b6dc045bc111ed0bcf3a7840e096ddc3ef6badbeef7fb905242e272a9f82f483d849a43e61
-    HEAD_REF master
+    REPO JinmingHu-MSFT/azure-storage-cpp
+    REF 775c36936bb37d1964a827930e593be3f4cb5764
+    SHA512 e3c2d813733e7cc9092b850a785372b63deb27ac72e0df0263ba81009bb7ee69bc6f3d8287015e17714bbe1d87eca0295626803c8a029ce02841d68d7904b2d1
+    HEAD_REF dev
     PATCHES
         # on osx use the uuid.h that is part of the osx sdk
         builtin-uuid-osx.patch
